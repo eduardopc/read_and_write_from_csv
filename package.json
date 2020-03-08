@@ -1,0 +1,22 @@
+{
+  "name": "read_csv_and_make_something",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -r esm --inspect-brk --inspect=0.0.0.0:9229 ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "csv-parser": "^2.3.2",
+    "csv-writer": "^1.6.0",
+    "jwt-decode": "^2.2.0"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "nodemon": "^2.0.2",
+    "sucrase": "^3.12.1"
+  }
+}
